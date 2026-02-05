@@ -1,0 +1,131 @@
+﻿@page "/order/details/{Id:int}"
+@using System.Security.Claims
+@using YumBlazor.Utility  @* Yeh line pakka check karein *@
+@inject IOrderRepository _orderRepository
+@inject NavigationManager _nav
+@inject AuthenticationStateProvider _AuthenticationStateProvider
+@inject IJSRuntime _JS
+
+@if (IsProcessing)
+{
+    <div class="loader-wrap text-center mt-5">
+        <img src="/images/loading.png" width="80" />
+    </div>
+}
+else if (OrderHeader == null)
+{
+    @* ... (No access UI) ... *@
+}
+else
+{
+    <div class="container my-5" style="max-width:850px;">
+        <div class="card p-4 shadow-sm border">
+            <h4 class="text-success text-center text-uppercase mb-4">Order Details</h4>
+
+            <div class="row">
+                <div class="col-12">
+                    <p><b>Order Id:</b> @OrderHeader.Id</p>
+                    <p><b>Name:</b> @OrderHeader.Name</p>
+                    <p><b>Email:</b> @OrderHeader.Email</p>
+                    <p><b>Phone:</b> @OrderHeader.PhoneNumber</p>
+                    <p><b>Order Status:</b> <span class="badge bg-info text-dark">@OrderHeader.Status</span></p>
+                </div>
+            </div>
+
+            <hr />
+            <h5 class="text-success">Menu Items</h5>
+            <div class="mt-2">
+                @foreach (var d in OrderHeader.OrderDetails)
+                {
+                    <div class="d-flex justify-content-between mb-1">
+                        <span class="text-muted">-- @d.ProductName</span>
+                        <span>
+                            @d.Price.ToString("C") x @d.Count = @((d.Price * d.Count).ToString("C"))
+                        </span>
+                    </div>
+                }
+            </div>
+
+            <hr />
+            <div class="text-end">
+                <h4 class="text-success fw-bold">@OrderHeader.OrderTotal.ToString("C")</h4>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <button class="btn btn-secondary w-100" @onclick='() => _nav.NavigateTo("/order/list")'>
+                        Back to Orders
+                    </button>
+                </div>
+
+                <AuthorizeView Roles="Admin">
+                    @if (OrderHeader.Status != SD.StatusCancelled && OrderHeader.Status != SD.StatusCompleted)
+                    {
+                        <div class="col-md-3">
+                            <button class="btn btn-danger w-100" @onclick="() => UpdateStatus(SD.StatusCancelled)">Cancel Order</button>
+                        </div>
+                    }
+
+                    @if (OrderHeader.Status == SD.StatusPending)
+                    {
+                        <div class="col-md-3">
+                            <button class="btn btn-primary w-100" @onclick="() => UpdateStatus(SD.StatusReadyForPickup)">Ready for Pickup</button>
+                        </div>
+                    }
+
+                    @if (OrderHeader.Status == SD.StatusReadyForPickup)
+                    {
+                        <div class="col-md-3">
+                            <button class="btn btn-success w-100" @onclick="() => UpdateStatus(SD.StatusCompleted)">Completed</button>
+                        </div>
+                    }
+                </AuthorizeView>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    private bool IsProcessing = true;
+    [Parameter] public int Id { get; set; }
+    private OrderHeader OrderHeader;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadOrder();
+    }
+
+    private async Task LoadOrder()
+    {
+        IsProcessing = true;
+        OrderHeader = await _orderRepository.GetAsync(Id);
+        var authState = await _AuthenticationStateProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+
+        if (OrderHeader != null)
+        {
+            if (!user.IsInRole("Admin") && OrderHeader.Email != user.FindFirst(ClaimTypes.Email)?.Value)
+            {
+                OrderHeader = null;
+            }
+        }
+        IsProcessing = false;
+    }
+
+    private async Task UpdateStatus(string newStatus)
+    {
+        IsProcessing = true;
+        var result = await _orderRepository.UpdateStatusAsync(Id, newStatus, "");
+
+        if (result)
+        {
+            OrderHeader.Status = newStatus;
+            await _JS.ToastrSuccess("Status updated to: " + newStatus);
+        }
+        else
+        {
+            await _JS.ToastrError("Update failed");
+        }
+        IsProcessing = false;
+    }
+}

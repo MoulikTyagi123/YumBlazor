@@ -1,0 +1,135 @@
+﻿@page "/order/list"
+@using System.Globalization
+@using Microsoft.AspNetCore.Authorization
+@using System.Security.Claims
+@using YumBlazor.Data
+@inject IOrderRepository _orderRepository
+@inject NavigationManager _nav
+@attribute [Authorize]
+
+<PageTitle>Orders List</PageTitle>
+
+@if (IsProcessing)
+{
+    <div class="loader-wrap text-center mt-5">
+        <img src="/images/loading.png" width="80" />
+    </div>
+}
+else
+{
+    <div class="container-fluid p-4">
+        <RadzenCard class="rz-mb-4 rz-background-color-black">
+            <RadzenText TextStyle="TextStyle.H4" class="rz-color-white rz-text-align-center rz-m-0 text-uppercase">
+                Order List
+            </RadzenText>
+        </RadzenCard>
+
+        @if (OrderHeaders != null)
+        {
+            <RadzenDataGrid AllowFiltering="true"
+                            AllowColumnResize="true"
+                            AllowAlternatingRows="false"
+                            FilterMode="FilterMode.Advanced"
+                            AllowSorting="true"
+                            PageSize="10"
+                            AllowPaging="true"
+                            PagerHorizontalAlign="HorizontalAlign.Left"
+                            ShowPagingSummary="true"
+                            Data="@OrderHeaders"
+                            TItem="OrderHeader"
+                            ColumnWidth="200px"
+                            LogicalFilterOperator="LogicalFilterOperator.Or"
+                            SelectionMode="DataGridSelectionMode.Single">
+                <Columns>
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="Id" Title="ID" Width="70px" Filterable="false" Frozen="true" />
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="Name" Title="Customer Name" />
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="PhoneNumber" Title="Phone" Width="150px" />
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="Email" Title="Email" />
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="OrderTotal" Title="Total">
+                        <Template Context="order">
+                            @* Indian Currency format *@
+                            <span class="rz-color-success fw-bold">
+                                @order.OrderTotal.ToString("C", CultureInfo.GetCultureInfo("en-IN"))
+                            </span>
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="OrderDate" Title="Order Date" FormatString="{0:d}" Width="150px" />
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Property="Status" Title="Status" Width="150px">
+                        <Template Context="order">
+                            <RadzenBadge BadgeStyle="@GetBadgeStyle(order.Status)" Text="@order.Status" class="rz-border-radius-4" />
+                        </Template>
+                    </RadzenDataGridColumn>
+
+                    <RadzenDataGridColumn TItem="OrderHeader" Title="Action" Filterable="false" Sortable="false" Width="120px" TextAlign="TextAlign.Center">
+                        <Template Context="order">
+                            <RadzenButton Icon="edit"
+                                          ButtonStyle="ButtonStyle.Info"
+                                          Variant="Variant.Flat"
+                                          Size="ButtonSize.Small"
+                                          Click="@(() => _nav.NavigateTo($"/order/details/{order.Id}"))"
+                                          Text="Details" />
+                        </Template>
+                    </RadzenDataGridColumn>
+                </Columns>
+            </RadzenDataGrid>
+        }
+    </div>
+}
+
+@code {
+    private bool IsProcessing = true;
+    private IEnumerable<OrderHeader> OrderHeaders { get; set; } = new List<OrderHeader>();
+
+    [CascadingParameter]
+    public Task<AuthenticationState> AuthenticationState { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadOrderHeaders();
+        }
+    }
+
+    private async Task LoadOrderHeaders()
+    {
+        IsProcessing = true;
+        StateHasChanged();
+
+        var authState = await AuthenticationState;
+        var user = authState?.User;
+
+        if (user.IsInRole("Admin"))
+        {
+            OrderHeaders = await _orderRepository.GetAllAsync();
+        }
+        else
+        {
+            var userEmail = user.FindFirst(ClaimTypes.Email)?.Value;
+            var allOrders = await _orderRepository.GetAllAsync();
+            OrderHeaders = allOrders.Where(u => u.Email == userEmail).ToList();
+        }
+
+        IsProcessing = false;
+        StateHasChanged();
+    }
+
+    // Status ke hisaab se badge ka color change karne ke liye
+    private BadgeStyle GetBadgeStyle(string status)
+    {
+        return status switch
+        {
+            "Pending" => BadgeStyle.Warning,
+            "Ready for Pickup" => BadgeStyle.Info,
+            "Completed" => BadgeStyle.Success,
+            "Cancelled" => BadgeStyle.Danger,
+            _ => BadgeStyle.Secondary
+        };
+    }
+}

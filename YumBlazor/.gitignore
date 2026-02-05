@@ -1,0 +1,36 @@
+## [Visual Studio] ##
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## [Build Results] ##
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+
+## [ASP.NET Core] ##
+project.lock.json
+project.fragment.lock.json
+artifacts/
+wwwroot/lib/
+
+## [Database] ##
+*.mdf
+*.ldf
+*.db
+*.sqlite
+
+## [OS Files] ##
+.DS_Store
+Thumbs.db
+
+## [Secrets & Config] ##
+# Agar aap chahte ho ki aapki Stripe/Google keys GitHub par na jayen:
+appsettings.Development.json
+UserSecrets/

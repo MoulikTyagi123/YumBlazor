@@ -1,0 +1,159 @@
+﻿@page "/"
+@using System.Globalization
+@using System.Security.Claims
+@using YumBlazor.Services
+
+@inject AuthenticationStateProvider _AuthenticationStateProvider
+@inject IJSRuntime _JS
+@inject NavigationManager _NavigationManager
+@inject IProductRepository _productRepository
+@inject ICategoryRepository _categoryRepository
+@inject IShoppingCartRepository _cartRepository
+@inject SharedStateService _sharedStateService
+
+<PageTitle>Home</PageTitle>
+
+@if (IsProcessing)
+{
+    <div class="text-center mt-5">
+        <div class="spinner-border text-success" role="status"></div>
+        <h4 class="mt-3 text-muted">Loading delicious menu...</h4>
+    </div>
+}
+else
+{
+    <!-- ================= HERO SEARCH ================= -->
+    <div class="hero-search text-center py-5 bg-light mb-4 shadow-sm">
+        <div class="container">
+            <div class="search-box mx-auto" style="max-width: 600px;">
+                <input type="text" class="form-control rounded-pill p-3 shadow-sm border-0"
+                       @bind="SearchText" @bind:event="oninput" placeholder="🔍 Search for food items..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- ================= CATEGORIES (FIXED SIZE & ALIGNED) ================= -->
+        <ul class="nav nav-pills justify-content-center mb-5 gap-3">
+            <li class="nav-item">
+                <span class="nav-link btn @(GetActiveTabClass(0)) shadow-sm"
+                      style="cursor:pointer; min-width: 120px; text-align: center; border-radius: 10px; transition: 0.3s; font-weight: 500;"
+                      @onclick="() => FilterProducts(0)">
+                    All
+                </span>
+            </li>
+            @foreach (var cat in Categories)
+            {
+                <li class="nav-item">
+                    <span class="nav-link btn @(GetActiveTabClass(cat.Id)) shadow-sm"
+                          style="cursor:pointer; min-width: 120px; text-align: center; border-radius: 10px; transition: 0.3s; font-weight: 500;"
+                          @onclick="() => FilterProducts(cat.Id)">
+                        @cat.Name
+                    </span>
+                </li>
+            }
+        </ul>
+
+        <!-- ================= PRODUCT GRID ================= -->
+        <div class="row g-4 mb-5">
+            @if (FilteredProducts != null && FilteredProducts.Any())
+            {
+                @foreach (var prod in FilteredProducts)
+                {
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
+                            <img src="@(string.IsNullOrEmpty(prod.ImageUrl) ? "/images/default.png" : prod.ImageUrl)"
+                                 class="card-img-top"
+                                 style="height:220px; object-fit:cover;" />
+
+                            <div class="card-body text-center p-4">
+                                <h5 class="fw-bold">@prod.Name</h5>
+                                <p class="text-success fw-bold fs-5 mb-3">
+                                    @prod.Price.ToString("C", CultureInfo.GetCultureInfo("en-IN"))
+                                </p>
+                                <button class="btn btn-success w-100 py-2 fw-bold rounded-3 shadow-sm"
+                                        @onclick="() => AddOrderItem(prod)">
+                                    <i class="bi bi-cart-plus me-2"></i>Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12 text-center py-5">
+                    <p class="text-muted fs-5">No food items found matching your search.</p>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private IEnumerable<Product> Products = new List<Product>();
+    private IEnumerable<Category> Categories = new List<Category>();
+    private IEnumerable<Product> FilteredProducts = new List<Product>();
+    private bool IsProcessing = true;
+    private int _selectedCategoryId = 0;
+    private string _searchText = "";
+
+    private string SearchText
+    {
+        get => _searchText;
+        set { _searchText = value; FilterProductsByName(value); }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            IsProcessing = true;
+            // Load sequentially: DbContext threading issue fix
+            Categories = await _categoryRepository.GetAllAsync();
+            Products = await _productRepository.GetAllAsync();
+            FilteredProducts = Products;
+        }
+        finally
+        {
+            IsProcessing = false;
+        }
+    }
+
+    private void FilterProducts(int id)
+    {
+        _selectedCategoryId = id;
+        FilteredProducts = id == 0 ? Products : Products.Where(p => p.CategoryId == id).ToList();
+    }
+
+    private void FilterProductsByName(string s)
+    {
+        if (string.IsNullOrWhiteSpace(s)) FilterProducts(_selectedCategoryId);
+        else FilteredProducts = Products.Where(p => p.Name.Contains(s, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+
+    // Category button styling logic
+    private string GetActiveTabClass(int id)
+        => id == _selectedCategoryId ? "btn-success text-white active" : "btn-outline-success text-dark bg-white";
+
+    private async Task AddOrderItem(Product product)
+    {
+        var auth = await _AuthenticationStateProvider.GetAuthenticationStateAsync();
+        if (!auth.User.Identity.IsAuthenticated)
+        {
+            _NavigationManager.NavigateTo("/Account/Login", true);
+            return;
+        }
+        var userId = auth.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        var result = await _cartRepository.UpdateCartAsync(userId, product.Id, 1);
+
+        // Updates the global cart counter in Navbar
+        _sharedStateService.TotalCartCount = await _cartRepository.GetTotalCartCountAsync(userId);
+
+        if (result)
+            await _JS.ToastrSuccess($"{product.Name} added to cart!");
+        else
+            await _JS.ToastrError("Could not add item.");
+    }
+}

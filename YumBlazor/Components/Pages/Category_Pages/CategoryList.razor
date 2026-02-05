@@ -1,0 +1,94 @@
+﻿@page "/category"
+
+@using YumBlazor.Data
+@using YumBlazor.Repository.IRepository
+
+@inject ICategoryRepository _categoryRepository
+@inject IJSRuntime _JS
+
+<BsModal OnModalConfirmation="ConfirmDelete_Click"
+         ButtonBootstrapStyle="btn-danger"
+         ButtonText="Delete"
+         Title="Are you sure you want to delete this Category?" />
+
+@if (IsProcessing)
+{
+    <div class="loader-wrap">
+        <img src="/images/loading.png" width="80" />
+    </div>
+}
+else
+{
+    <div class="container mt-5">
+
+        <div class="d-flex justify-content-between mb-4">
+            <h3>Category List</h3>
+
+            <a href="category/create" class="btn btn-secondary">
+                Add New
+            </a>
+        </div>
+
+        <table class="table table-hover shadow-sm">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th width="160"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var obj in Categories)
+                {
+                    <tr>
+                        <td>@obj.Name</td>
+
+                        <td>
+                            <a href="@($"/category/update/{obj.Id}")"
+                               class="btn btn-sm btn-primary me-2">
+                                Edit
+                            </a>
+
+                            <button class="btn btn-sm btn-danger"
+                                    @onclick="() => HandleDelete(obj.Id)">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+}
+
+@code {
+
+    private bool IsProcessing = true;
+    private IEnumerable<Category> Categories = new List<Category>();
+    private int DeleteCategoryID;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Categories = await _categoryRepository.GetAllAsync();
+        IsProcessing = false;
+    }
+
+    private async Task HandleDelete(int id)
+    {
+        DeleteCategoryID = id;
+        await _JS.InvokeVoidAsync("ShowConfirmationModal");
+    }
+
+    private async Task ConfirmDelete_Click(bool confirm)
+    {
+        if (!confirm) return;
+
+        await _categoryRepository.DeleteAsync(DeleteCategoryID);
+
+        Categories = await _categoryRepository.GetAllAsync();
+
+        await _JS.InvokeVoidAsync("showToastr", "success", "Category deleted successfully");
+    }
+}

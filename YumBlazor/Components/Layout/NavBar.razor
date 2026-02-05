@@ -1,0 +1,82 @@
+﻿@using Microsoft.AspNetCore.Components.Authorization
+@using YumBlazor.Services
+@implements IDisposable
+@inject SharedStateService _sharedStateService
+@inject IShoppingCartRepository _shoppingCartRepository
+@inject AuthenticationStateProvider _authStateProvider
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+    <div class="container-fluid">
+        <NavLink class="navbar-brand fw-bold" href="/">🍔 YumBlazor</NavLink>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                    <NavLink href="/" class="nav-link" Match="NavLinkMatch.All">Home</NavLink>
+                </li>
+                <li class="nav-item mx-2">
+                    <NavLink href="/cart" class="nav-link" Match="NavLinkMatch.All">
+                        <span class="bi bi-cart3"></span> Cart (@_sharedStateService.TotalCartCount)
+                    </NavLink>
+                </li>
+                <li class="nav-item mx-2">
+                    <NavLink href="/order/list" class="nav-link" Match="NavLinkMatch.All">Order List</NavLink>
+                </li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <AuthorizeView>
+                    <Authorized Context="auth">
+                        <span class="text-light small">Welcome, @auth.User.Identity?.Name</span>
+                        <form action="Account/Logout" method="post" class="ms-2">
+                            <AntiforgeryToken />
+                            <button type="submit" class="btn btn-success btn-sm">Logout</button>
+                        </form>
+                    </Authorized>
+                    <NotAuthorized>
+                        <NavLink href="Account/Register" class="btn btn-outline-light btn-sm">Register</NavLink>
+                        <NavLink href="Account/Login" class="btn btn-success btn-sm">Login</NavLink>
+                    </NotAuthorized>
+                </AuthorizeView>
+            </div>
+        </div>
+    </div>
+</nav>
+
+@code {
+    protected override void OnInitialized()
+    {
+        _sharedStateService.OnChange += OnSharedStateChange;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            // Navbar aur Home page ke beech DB collision rokne ke liye
+            await GetInitialCount();
+        }
+    }
+
+    private void OnSharedStateChange() => InvokeAsync(StateHasChanged);
+
+    public async Task GetInitialCount()
+    {
+        try
+        {
+            // Sabse Important: 500ms ka delay taaki Home Page apna DB call pehle khatam kar le
+            await Task.Delay(500);
+
+            var authState = await _authStateProvider.GetAuthenticationStateAsync();
+            var user = authState.User;
+
+            if (user.Identity?.IsAuthenticated == true)
+            {
+                var userId = user.FindFirst(u => u.Type.Contains("nameidentifier"))?.Value;
+                _sharedStateService.TotalCartCount = await _shoppingCartRepository.GetTotalCartCountAsync(userId);
+                StateHasChanged();
+            }
+        }
+        catch (Exception) { /* Fail silently to prevent crash */ }
+    }
+
+    public void Dispose() => _sharedStateService.OnChange -= OnSharedStateChange;
+}
