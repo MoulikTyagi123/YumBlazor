@@ -148,7 +148,7 @@
               "RelativeDocumentMoniker": "YumBlazor\\Dockerfile",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Dockerfile",
               "RelativeToolTip": "YumBlazor\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-05-18T17:46:07.389Z",
               "EditorCaption": ""
@@ -163,8 +163,7 @@
               "RelativeToolTip": "YumBlazor\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-18T07:53:19.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T07:53:19.128Z"
             },
             {
               "$type": "Document",
@@ -176,8 +175,7 @@
               "RelativeToolTip": "YumBlazor\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T07:52:00.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T07:52:00.519Z"
             },
             {
               "$type": "Document",
@@ -345,8 +343,7 @@
               "RelativeToolTip": "YumBlazor\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-17T11:20:55.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T11:20:55.978Z"
             },
             {
               "$type": "Document",
