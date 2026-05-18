@@ -42,10 +42,10 @@ namespace YumBlazor
                 })
 
             .AddGoogle(options =>
-             {
-                 options.ClientId = "1039589209425-64rknssi53bku0hi94qgpnhij94099ad.apps.googleusercontent.com";
-                 options.ClientSecret = "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";
-             })
+            {
+                options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+                options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+            })
              .AddIdentityCookies();
 
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
