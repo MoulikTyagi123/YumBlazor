@@ -132,7 +132,7 @@
               "RelativeDocumentMoniker": "YumBlazor\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
               "RelativeToolTip": "YumBlazor\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAcwG8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwGQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-20T18:09:46.709Z",
               "EditorCaption": ""
@@ -399,8 +399,7 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:14.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:14.697Z"
             },
             {
               "$type": "Document",
@@ -424,8 +423,7 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:05.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:05.008Z"
             },
             {
               "$type": "Document",
