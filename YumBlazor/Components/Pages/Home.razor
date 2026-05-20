@@ -34,10 +34,10 @@ else
 
     <div class="container">
         <!-- ================= CATEGORIES (FIXED SIZE & ALIGNED) ================= -->
-        <ul class="nav nav-pills justify-content-center mb-5 gap-3">
+        <ul class="nav nav-pills justify-content-center mb-4 gap-2 flex-wrap px-2">
             <li class="nav-item">
                 <span class="nav-link btn @(GetActiveTabClass(0)) shadow-sm"
-                      style="cursor:pointer; min-width: 120px; text-align: center; border-radius: 10px; transition: 0.3s; font-weight: 500;"
+                      style="cursor:pointer; min-width: 90px; text-align: center; border-radius: 10px; transition: 0.3s; font-weight: 500; font-size: 0.85rem;"
                       @onclick="() => FilterProducts(0)">
                     All
                 </span>
@@ -60,7 +60,7 @@ else
             {
                 @foreach (var prod in FilteredProducts)
                 {
-                    <div class="col-md-4">
+                    <div class="col-6 col-md-4">
                         <div class="card h-100 shadow-sm border-0" style="border-radius: 15px; overflow: hidden;">
                             <img src="@(string.IsNullOrEmpty(prod.ImageUrl) ? "/images/default.png" : prod.ImageUrl)"
                                  class="card-img-top"
