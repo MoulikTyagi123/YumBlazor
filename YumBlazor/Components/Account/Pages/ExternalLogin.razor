@@ -100,15 +100,31 @@
         if (result.Succeeded)
         {
             RedirectManager.RedirectTo(ReturnUrl);
+            return;
         }
         else if (result.IsLockedOut)
         {
             RedirectManager.RedirectTo("Account/Lockout");
+            return;
         }
 
-        if (externalLoginInfo.Principal.HasClaim(c => c.Type == ClaimTypes.Email))
+        var email = externalLoginInfo.Principal.FindFirstValue(ClaimTypes.Email);
+
+        if (!string.IsNullOrEmpty(email))
         {
-            Input.Email = externalLoginInfo.Principal.FindFirstValue(ClaimTypes.Email) ?? "";
+            var existingUser = await UserManager.FindByEmailAsync(email);
+
+            if (existingUser != null)
+            {
+                await UserManager.AddLoginAsync(existingUser, externalLoginInfo);
+
+                await SignInManager.SignInAsync(existingUser, isPersistent: false);
+
+                RedirectManager.RedirectTo(ReturnUrl ?? "/");
+                return;
+            }
+
+            Input.Email = email;
         }
     }
 

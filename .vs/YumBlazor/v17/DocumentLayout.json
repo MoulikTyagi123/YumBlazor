@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\YumBlazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\account\\pages\\externallogin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\account\\pages\\registerconfirmation.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,6 +135,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExternalLogin.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Account\\Pages\\ExternalLogin.razor",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T18:51:43.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterConfirmation.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Account\\Pages\\RegisterConfirmation.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T18:49:18.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Program.cs",
@@ -139,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IJSRuntimeExtensions.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
@@ -151,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ShoppingCart.cs",
@@ -163,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\Product.cs",
@@ -175,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "OrderDetails.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderDetails.cs",
@@ -187,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderHeader.cs",
@@ -199,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\Category.cs",
@@ -211,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationUser.cs",
@@ -223,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationDbContext.cs",
@@ -235,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Routes.razor",
@@ -247,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\App.razor",
@@ -259,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\_Imports.razor",
@@ -271,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "BsModal.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Shared\\BsModal.razor",
@@ -283,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Home.razor",
@@ -295,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Error.razor",
@@ -307,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Auth.razor",
@@ -319,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\_Imports.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\_Imports.razor",
@@ -331,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ProductUpsert.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
@@ -343,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "ProductList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
@@ -355,7 +389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "OrderSuccess.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
@@ -367,7 +401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "OrderList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
@@ -379,7 +413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "OrderDetails.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
@@ -391,7 +425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CategoryUpsert.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
@@ -403,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "CategoryList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
@@ -415,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cart.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
@@ -423,11 +457,12 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
               "ViewState": "AgIAAJAAAAAAAAAAAAAmwK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:05.008Z"
+              "WhenOpened": "2026-05-20T15:21:05.008Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavMenu.razor",
@@ -439,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NavBar.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavBar.razor",
@@ -451,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\MainLayout.razor",
