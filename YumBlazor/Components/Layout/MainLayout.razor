@@ -1,24 +1,15 @@
 ﻿@inherits LayoutComponentBase
-@using YumBlazor.Utility
 
-<div class="page">
+<div class="d-flex flex-column min-vh-100">
 
-    <!-- ADMIN SIDEBAR ONLY -->
-    <AuthorizeView Roles="@SD.Role_Admin">
-        <div class="sidebar">
-            <NavMenu />
-        </div>
-    </AuthorizeView>
+    <!-- NAVBAR - Always on top, has Admin links built-in -->
+    <NavBar />
 
-    <main>
-
-        <!-- ALWAYS SHOW NAVBAR -->
-        <NavBar />
-
-        <!-- PAGE CONTENT -->
-        <article class="content px-4">
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow-1 overflow-auto">
+        <article class="content px-3 py-2">
             @Body
         </article>
-
     </main>
+
 </div>

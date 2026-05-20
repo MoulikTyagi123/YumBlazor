@@ -3,130 +3,104 @@
 
 @inject ICategoryRepository _categoryRepository
 @inject NavigationManager _navigationManager
-@inject IJSRuntime _JS;
+@inject IJSRuntime _JS
+
+<PageTitle>@(Id == null || Id == 0 ? "Create" : "Update") Category - YumBlazor</PageTitle>
 
 @if (IsProcessing)
 {
-	<div class="position-absolute w-75 h-75 d-flex flex-column align-items-center bg-white justify-content-center">
-		<img src="/images/loading.png" alt="loading"/>
-	</div>
+    <div class="text-center mt-5 py-5">
+        <div class="spinner-border text-success" role="status"></div>
+        <p class="mt-2 text-muted">Loading...</p>
+    </div>
 }
 else
 {
-	<div class="card shadow border-0 mt-4">
-		<div class="card-header bg-black bg-gradient ml-0 py-3">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h2 class="text-white py-2">@(Id == 0 ? "Create" : "Update")Category</h2>
-				</div>
-			</div>
-		</div>
-						
+    <div class="container" style="max-width:600px;">
+        <div class="card shadow border-0 mt-4" style="border-radius:14px; overflow:hidden;">
 
-	<div class="card-body p-4">
-		<EditForm Model="Category" FormName="CategoryUpsertForm" OnValidSubmit="UpsertCategory">
-		<DataAnnotationsValidator></DataAnnotationsValidator>
-		<div class="border p-3 mt-4">
-			<div class="form-floating py-3 col-12">
-						<InputText @bind-Value="Category.Name" class="form-control" id="Name" placeholder="Name" />
-						<label for="Name">Name</label>
-						<ValidationMessage For="@(() => Category.Name)" />
-			</div>
-		</div>
-		<div class="row mt-3">
-			<div class="col-6  col-md-3">
-				<button type="submit" class="btn btn-primary" disabled="@IsProcessing">
-							<i class="bi bi-arrow-bar-left"></i> Update
-				</button>
-			</div>
+            <div class="card-header py-3 text-center" style="background:#1a1a2e;">
+                <h4 class="text-white mb-0 fw-bold">
+                    <i class="bi bi-grid me-2"></i>@(Id == null || Id == 0 ? "Create" : "Update") Category
+                </h4>
+            </div>
 
-					<div class="col-6  col-md-3">
-						<a href="category" class="btn btn-secondary form-control" disabled="@IsProcessing">
-							<i class="bi bi-arrow-bar-left"></i> Back to List
-						</a>	
-					
-					</div>
+            <div class="card-body p-4">
+                <!--
+                    FIX: [SupplyParameterFromForm] is removed from Category property.
+                    In InteractiveServer render mode, it causes form data issues.
+                    We bind directly using EditForm Model and manage state ourselves.
+                -->
+                <EditForm Model="Category" OnValidSubmit="UpsertCategory">
+                    <DataAnnotationsValidator />
 
+                    <div class="mb-4">
+                        <label class="form-label fw-semibold">Category Name</label>
+                        <InputText @bind-Value="Category.Name"
+                                   class="form-control form-control-lg"
+                                   placeholder="e.g. Burgers, Pizza, Drinks..." />
+                        <ValidationMessage For="@(() => Category.Name)" />
+                    </div>
 
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success flex-grow-1 py-2 fw-bold" disabled="@IsProcessing">
+                            <i class="bi bi-check-circle me-1"></i>
+                            @(Category.Id == 0 ? "Create Category" : "Update Category")
+                        </button>
+                        <a href="/category" class="btn btn-secondary py-2 px-4">
+                            <i class="bi bi-arrow-left me-1"></i>Back
+                        </a>
+                    </div>
 
-
-
-
-		</div>
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			</EditForm>
-	</div>
-	</div>
-
-
-
+                </EditForm>
+            </div>
+        </div>
+    </div>
 }
 
-
 @code {
-	public bool IsProcessing { get; set; } = true;
+    public bool IsProcessing { get; set; } = true;
 
-	[SupplyParameterFromForm]
-	private Category Category { get; set; } = new Category();
+    // FIX: Removed [SupplyParameterFromForm] - use plain private field, initialize fresh
+    private Category Category { get; set; } = new Category();
 
-	[Parameter]
-	public int? Id { get; set; }
+    [Parameter]
+    public int? Id { get; set; }
 
-	protected override async Task OnAfterRenderAsync(bool firstRender)
-	{
-		if (firstRender)
-		{
-			await LoadCategory();
-			IsProcessing = false;
-			StateHasChanged();
-		}
-	}
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadCategory();
+            IsProcessing = false;
+            StateHasChanged();
+        }
+    }
 
-	private async Task LoadCategory()
-	{
-		if (Id > 0)
-		{
-			Category = await _categoryRepository.GetAsync(Id.Value);
-		}
-	}
+    private async Task LoadCategory()
+    {
+        if (Id > 0)
+        {
+            Category = await _categoryRepository.GetAsync(Id.Value);
+        }
+    }
 
-	private async Task UpsertCategory()
-	{
-		IsProcessing = true;
+    private async Task UpsertCategory()
+    {
+        IsProcessing = true;
 
-		if (Category.Id == 0)
-		{
-			await _categoryRepository.CreateAsync(Category);
-			await _JS.ToastrSuccess("Category Created Successfully");
-		}
-		else
-		{
-			await _categoryRepository.UpdateAsync(Category);
-			await _JS.ToastrSuccess("Category Updated Successfully");
-		}
+        if (Category.Id == 0)
+        {
+            await _categoryRepository.CreateAsync(Category);
+            await _JS.ToastrSuccess("Category Created Successfully");
+        }
+        else
+        {
+            await _categoryRepository.UpdateAsync(Category);
+            await _JS.ToastrSuccess("Category Updated Successfully");
+        }
 
-		IsProcessing = false;
-		_navigationManager.NavigateTo("category");
-	}
+        IsProcessing = false;
+        _navigationManager.NavigateTo("/category");
+    }
 }

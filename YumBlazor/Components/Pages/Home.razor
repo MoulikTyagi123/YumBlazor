@@ -23,11 +23,13 @@
 else
 {
     <!-- ================= HERO SEARCH ================= -->
-    <div class="hero-search text-center py-5 bg-light mb-4 shadow-sm">
+    <div class="hero-search py-3 px-3 bg-white border-bottom mb-3">
         <div class="container">
-            <div class="search-box mx-auto" style="max-width: 600px;">
-                <input type="text" class="form-control rounded-pill p-3 shadow-sm border-0"
-                       @bind="SearchText" @bind:event="oninput" placeholder="🔍 Search for food items..." />
+            <div class="input-group shadow-sm rounded-pill overflow-hidden">
+                <span class="input-group-text bg-white border-0 ps-3">🔍</span>
+                <input type="text" class="form-control border-0 py-2"
+                       @bind="SearchText" @bind:event="oninput"
+                       placeholder="Search for food items..." />
             </div>
         </div>
     </div>

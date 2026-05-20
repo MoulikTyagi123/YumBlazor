@@ -3,52 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\YumBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\services\\sharedstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\services\\sharedstateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\layout\\navbar.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\services\\extensions\\ijsruntimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\services\\extensions\\ijsruntimeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\shared\\bsmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\shared\\bsmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -63,20 +63,20 @@
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\shared\\bsmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\shared\\bsmodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\auth.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -103,84 +103,12 @@
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\orderpages\\orderdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\category_pages\\categorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\category_pages\\categorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\irepository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\irepository\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\irepository\\ishoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\shoppingcartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\data\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\data\\orderheader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -190,71 +118,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:42:23.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NavBar.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavBar.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavBar.razor",
-              "ViewState": "AgIAADcAAAAAAAAAAADwv1EAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:42:19.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:42:14.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SharedStateService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\SharedStateService.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Services\\SharedStateService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\SharedStateService.cs",
-              "RelativeToolTip": "YumBlazor\\Services\\SharedStateService.cs",
+              "Title": "IJSRuntimeExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
+              "RelativeToolTip": "YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T05:42:08.989Z",
+              "WhenOpened": "2026-05-20T15:24:39.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Services\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\PaymentService.cs",
-              "RelativeToolTip": "YumBlazor\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAuwA0AAABRAAAAAAAAAA==",
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T05:42:06.174Z",
+              "WhenOpened": "2026-05-20T15:24:25.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T15:24:21.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\OrderDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T15:24:19.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderHeader.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderHeader.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\OrderHeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T15:24:18.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T15:24:16.386Z",
               "EditorCaption": ""
             },
             {
@@ -267,20 +208,20 @@
               "RelativeToolTip": "YumBlazor\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T05:41:56.371Z",
+              "WhenOpened": "2026-05-20T15:24:14.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "BsModal.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Shared\\BsModal.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Shared\\BsModal.razor",
-              "ViewState": "AgIAABEAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:41:46.668Z",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "YumBlazor\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T15:24:13.091Z",
               "EditorCaption": ""
             },
             {
@@ -293,198 +234,85 @@
               "RelativeToolTip": "YumBlazor\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:41:40.429Z",
+              "WhenOpened": "2026-05-20T15:24:10.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\App.razor",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:22:04.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:22:02.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BsModal.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Shared\\BsModal.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Shared\\BsModal.razor",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:41:28.84Z",
+              "WhenOpened": "2026-05-20T15:21:56.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Counter.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Counter.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Counter.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Counter.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Counter.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAIwKAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:41:12.284Z",
+              "WhenOpened": "2026-05-20T15:21:50.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Error.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:21:48.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Auth.razor",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Auth.razor",
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Auth.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:41:05.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderList.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:40:34.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CategoryUpsert.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAmwIQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T05:40:16.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Dockerfile",
-              "RelativeDocumentMoniker": "YumBlazor\\Dockerfile",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Dockerfile",
-              "RelativeToolTip": "YumBlazor\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-18T17:46:07.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\.gitignore",
-              "RelativeDocumentMoniker": "YumBlazor\\.gitignore",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\.gitignore",
-              "RelativeToolTip": "YumBlazor\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-18T07:53:19.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "YumBlazor\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.Development.json",
-              "RelativeToolTip": "YumBlazor\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T07:52:00.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": ".json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\.json",
-              "RelativeDocumentMoniker": "YumBlazor\\.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\.json",
-              "RelativeToolTip": "YumBlazor\\.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T07:51:23.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProductUpsert.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
-              "ViewState": "AgIAAN0AAAAAAAAAAAAmwPoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:25:12.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductList.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAmwIAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:25:06.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderSuccess.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAmwC8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:57.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrderDetails.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAmwIIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:40.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CategoryList.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAmwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:25.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Cart.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwHQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:19.374Z",
+              "WhenOpened": "2026-05-20T15:21:45.065Z",
               "EditorCaption": ""
             },
             {
@@ -497,269 +325,151 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:12.557Z",
+              "WhenOpened": "2026-05-20T15:21:43.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Error.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Error.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Error.razor",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ProductUpsert.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
+              "ViewState": "AgIAANkAAAAAAAAAAAAwwPoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:24:01.484Z",
+              "WhenOpened": "2026-05-20T15:21:38.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductList.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:21:33.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderSuccess.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:21:28.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderList.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwIYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:21:24.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderDetails.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAqwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T15:21:20.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAADEAAAAAAAAAAADgvz4AAAAwAAAAAAAAAA==",
+              "Title": "CategoryUpsert.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:23:49.689Z",
+              "WhenOpened": "2026-05-20T15:21:14.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\App.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswCsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "CategoryList.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
+              "ViewState": "AgIAADwAAAAAAAAAAAAqwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:21:23.731Z",
+              "WhenOpened": "2026-05-20T15:21:09.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "YumBlazor\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
-              "RelativeToolTip": "YumBlazor\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Cart.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Pages\\Cart_Pages\\Cart.razor",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAmwK0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-17T11:21:20.846Z",
+              "WhenOpened": "2026-05-20T15:21:05.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
-              "RelativeToolTip": "YumBlazor\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:21:02.94Z",
+              "DocumentIndex": 26,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAqwGkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T06:53:04.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.json",
-              "RelativeDocumentMoniker": "YumBlazor\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.json",
-              "RelativeToolTip": "YumBlazor\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-17T11:20:55.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\IRepository\\IShoppingCartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:20:37.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\IRepository\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IProductRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\IRepository\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:20:29.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\IRepository\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\IOrderRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\IRepository\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:20:22.214Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:19:40.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ShoppingCartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\ShoppingCartRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\ShoppingCartRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\ShoppingCartRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\ShoppingCartRepository.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwDUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:19:32.709Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAIwF4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:19:26.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "OrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\OrderRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\OrderRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\OrderRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\OrderRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAswFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:19:20.108Z",
+              "DocumentIndex": 3,
+              "Title": "NavBar.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavBar.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavBar.razor",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAmwLMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T06:53:00.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Repository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "YumBlazor\\Repository\\CategoryRepository.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:18:54.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\ShoppingCart.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\ShoppingCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:18:17.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\Product.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\Product.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:18:03.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "OrderHeader.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderHeader.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\OrderHeader.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:17:58.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderDetails.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderDetails.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\OrderDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:17:52.214Z",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "YumBlazor\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-20T06:52:53.219Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\Category.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:17:46.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "YumBlazor\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:15:09.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "serviceDependencies.json",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Properties\\serviceDependencies.json",
-              "RelativeDocumentMoniker": "YumBlazor\\Properties\\serviceDependencies.json",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Properties\\serviceDependencies.json",
-              "RelativeToolTip": "YumBlazor\\Properties\\serviceDependencies.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-17T11:14:35.268Z"
             }
           ]
         }
