@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\YumBlazor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\cart_pages\\cart.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\category_pages\\categoryupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -118,11 +122,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "YumBlazor\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
+              "RelativeToolTip": "YumBlazor\\Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-20T18:09:46.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "IJSRuntimeExtensions.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
@@ -130,12 +147,11 @@
               "RelativeToolTip": "YumBlazor\\Services\\Extensions\\IJSRuntimeExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:39.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:39.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ShoppingCart.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ShoppingCart.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ShoppingCart.cs",
@@ -143,12 +159,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\ShoppingCart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:25.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:25.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Product.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\Product.cs",
@@ -156,12 +171,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:21.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:21.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "OrderDetails.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderDetails.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderDetails.cs",
@@ -169,12 +183,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\OrderDetails.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:19.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:19.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\OrderHeader.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\OrderHeader.cs",
@@ -182,12 +195,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\OrderHeader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:18.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:18.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\Category.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\Category.cs",
@@ -195,12 +207,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:16.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:16.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationUser.cs",
@@ -208,12 +219,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:14.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:14.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Data\\ApplicationDbContext.cs",
@@ -221,12 +231,11 @@
               "RelativeToolTip": "YumBlazor\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-20T15:24:13.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:13.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Routes.razor",
@@ -234,12 +243,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:24:10.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:24:10.63Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\App.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\App.razor",
@@ -247,12 +255,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\App.razor",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwBwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:22:04.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:22:04.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\_Imports.razor",
@@ -260,12 +267,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:22:02.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:22:02.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "BsModal.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Shared\\BsModal.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Shared\\BsModal.razor",
@@ -273,12 +279,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Shared\\BsModal.razor",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:56.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:56.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Home.razor",
@@ -286,12 +291,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAIEAAAAAAAAAAAAIwKAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:50.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:50.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Error.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Error.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Error.razor",
@@ -299,12 +303,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Error.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:48.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:48.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Auth.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Auth.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Auth.razor",
@@ -312,12 +315,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Auth.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:45.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:45.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\_Imports.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\_Imports.razor",
@@ -325,12 +327,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:43.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:43.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ProductUpsert.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
@@ -338,12 +339,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
               "ViewState": "AgIAANkAAAAAAAAAAAAwwPoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:38.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:38.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ProductList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
@@ -351,12 +351,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductList.razor",
               "ViewState": "AgIAAF8AAAAAAAAAAAAwwIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:33.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:33.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "OrderSuccess.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
@@ -364,12 +363,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderSuccess.razor",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:28.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:28.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "OrderList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
@@ -377,12 +375,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderList.razor",
               "ViewState": "AgIAAGUAAAAAAAAAAAAwwIYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:24.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:24.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "OrderDetails.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
@@ -390,25 +387,24 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\OrderPages\\OrderDetails.razor",
               "ViewState": "AgIAAGAAAAAAAAAAAAAqwIIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:20.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:20.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CategoryUpsert.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryUpsert.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-20T15:21:14.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CategoryList.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
@@ -416,8 +412,7 @@
               "RelativeToolTip": "YumBlazor\\Components\\Pages\\Category_Pages\\CategoryList.razor",
               "ViewState": "AgIAADwAAAAAAAAAAAAqwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T15:21:09.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T15:21:09.974Z"
             },
             {
               "$type": "Document",
@@ -434,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavMenu.razor",
@@ -442,12 +437,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AgIAAEcAAAAAAAAAAAAqwGkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T06:53:04.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T06:53:04.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NavBar.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\NavBar.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\NavBar.razor",
@@ -455,12 +449,11 @@
               "RelativeToolTip": "YumBlazor\\Components\\Layout\\NavBar.razor",
               "ViewState": "AgIAAJYAAAAAAAAAAAAmwLMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T06:53:00.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T06:53:00.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Layout\\MainLayout.razor",
@@ -468,8 +461,7 @@
               "RelativeToolTip": "YumBlazor\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T06:52:53.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T06:52:53.219Z"
             }
           ]
         }
