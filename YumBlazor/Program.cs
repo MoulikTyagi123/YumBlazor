@@ -18,7 +18,7 @@ namespace YumBlazor
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();

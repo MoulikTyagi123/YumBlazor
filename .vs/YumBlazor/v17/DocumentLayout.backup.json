@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\YumBlazor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\components\\pages\\product_pages\\productupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\components\\pages\\product_pages\\productupsert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|solutionrelative:yumblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04F1E1AB-7EAE-426A-9354-5D58E11F8BCF}|YumBlazor\\YumBlazor.csproj|c:\\users\\user\\source\\repos\\yumblazor\\yumblazor\\.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -138,24 +138,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Dockerfile",
               "RelativeDocumentMoniker": "YumBlazor\\Dockerfile",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Dockerfile",
               "RelativeToolTip": "YumBlazor\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-05-18T17:46:07.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\.gitignore",
               "RelativeDocumentMoniker": "YumBlazor\\.gitignore",
@@ -163,12 +163,11 @@
               "RelativeToolTip": "YumBlazor\\.gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-05-18T07:53:19.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T07:53:19.128Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.Development.json",
               "RelativeDocumentMoniker": "YumBlazor\\appsettings.Development.json",
@@ -176,8 +175,7 @@
               "RelativeToolTip": "YumBlazor\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-18T07:52:00.519Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T07:52:00.519Z"
             },
             {
               "$type": "Document",
@@ -193,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductUpsert.razor",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
               "RelativeDocumentMoniker": "YumBlazor\\Components\\Pages\\Product_Pages\\ProductUpsert.razor",
@@ -325,19 +323,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
               "RelativeDocumentMoniker": "YumBlazor\\Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\Program.cs",
               "RelativeToolTip": "YumBlazor\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAwC8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T11:21:02.94Z"
+              "WhenOpened": "2026-05-17T11:21:02.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\YumBlazor\\YumBlazor\\appsettings.json",
               "RelativeDocumentMoniker": "YumBlazor\\appsettings.json",
@@ -345,8 +344,7 @@
               "RelativeToolTip": "YumBlazor\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-17T11:20:55.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-17T11:20:55.978Z"
             },
             {
               "$type": "Document",
