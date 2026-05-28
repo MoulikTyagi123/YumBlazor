@@ -107,7 +107,7 @@ namespace YumBlazor
 
             // Add additional endpoints required by the Identity /Account Razor components.
             app.MapAdditionalIdentityEndpoints();
-
+            app.MapGet("/health", () => Results.Ok("healthy"));
             app.Run();
         }
     }
